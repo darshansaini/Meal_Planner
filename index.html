@@ -240,10 +240,82 @@ padding-top:12px;
   box-shadow: 5px 10px 18px black;
   padding-bottom: 20px;
 }
-@media (max-width: 300px) {
-  .card{
+@media screen and (max-width: 1000px) {
+  #card{
     display: flex;
-    flex-direction: column;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first{
+    
+    display: flex;
+    height:150px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  
+}
+
+@media screen and (max-width:1000px){
+  select{
+  align-items: center;
+  }
+  
+  input{
+  align-items:center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .form-second{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+	
+  }
+  
+  #activity{
+  margin-left:0px;
+  margin-top:150px;
+  
+  }
+  #gender{
+  margin-right:0px;
+  margin-top:150px;
+  margin-left:10px;
+  }
+  #weight{
+  margin-right:0px;
+  }
+  #height{
+  margin-right:0px;
+  }
+  
+  #mealsbtn{
+  margin-top:20px;
+  }
+  
+  nav{
+  text-align:center;
+  }
+  .nav-h{
+  margin-left:0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer{
+    margin-left: 35px;
+    margin-right: 35px;
+	margin-top:900px;
   }
 }
 .top{
